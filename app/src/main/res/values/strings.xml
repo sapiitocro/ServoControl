@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ServoControl</string>
+    <string name="control_led">Control Led</string>
+    <string name="idme_ique">IdMeñique</string>
+    <string name="desconectar">DESCONECTAR</string>
+    <string name="mano_cerrada">Mano Cerrada</string>
+    <string name="dato">Dato:</string>
+    <string name="mano_abierta">Mano Abierta</string>
+    <string name="cerrar">cerrar</string>
+    <string name="abrir">abrir</string>
+</resources>

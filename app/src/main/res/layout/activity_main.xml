@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tecsup.salazar.servocontrol.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="97dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/IdMeñique"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+
+                android:max="100" />
+
+            <TextView
+                android:id="@+id/IdtextMeñique"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dp"
+                android:text="@string/idme_ique" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/abrirmenique"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_marginStart="94dp"
+                android:layout_x="76dp"
+                android:layout_y="136dp"
+                android:padding="0dp"
+                android:text="@string/abrir" />
+
+            <Button
+                android:id="@+id/cerrarmenique"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_marginStart="95dp"
+                android:layout_toEndOf="@+id/abrirmenique"
+                android:layout_x="235dp"
+                android:layout_y="136dp"
+                android:padding="0dp"
+                android:text="@string/cerrar" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="159dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/IdAnular"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+
+                android:max="100" />
+
+            <TextView
+                android:id="@+id/IdtextAnular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dp"
+                android:text="IdAnular" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/abriranular"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_marginStart="94dp"
+                android:layout_x="76dp"
+                android:layout_y="136dp"
+                android:padding="0dp"
+                android:text="@string/abrir" />
+
+            <Button
+                android:id="@+id/cerraranular"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_marginStart="95dp"
+                android:layout_toEndOf="@+id/abrirmenique"
+                android:layout_x="235dp"
+                android:layout_y="136dp"
+                android:padding="0dp"
+                android:text="@string/cerrar" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="220dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/IdMedio"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+
+                android:max="100" />
+
+            <TextView
+                android:id="@+id/IdtextMedio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dp"
+                android:text="IdMedio" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/abrirmedio"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_marginStart="94dp"
+                android:layout_x="76dp"
+                android:layout_y="136dp"
+                android:padding="0dp"
+                android:text="@string/abrir" />
+
+            <Button
+                android:id="@+id/cerrarmedio"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_marginStart="95dp"
+                android:layout_toEndOf="@+id/abrirmenique"
+                android:layout_x="235dp"
+                android:layout_y="136dp"
+                android:padding="0dp"
+                android:text="@string/cerrar" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="282dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/IdIndice"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+
+                android:max="100" />
+
+            <TextView
+                android:id="@+id/IdtextIndice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dp"
+                android:text="IdIndice" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/abririndice"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_marginStart="94dp"
+                android:layout_x="76dp"
+                android:layout_y="136dp"
+                android:padding="0dp"
+                android:text="@string/abrir" />
+
+            <Button
+                android:id="@+id/cerrarindice"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_marginStart="95dp"
+                android:layout_toEndOf="@+id/abrirmenique"
+                android:layout_x="235dp"
+                android:layout_y="136dp"
+                android:padding="0dp"
+                android:text="@string/cerrar" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="343dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/IdPulgar"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+
+                android:max="100" />
+
+            <TextView
+                android:id="@+id/IdtextPulgar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="0dp"
+                android:text="IdPulgar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/abrirpulgar"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_marginStart="94dp"
+                android:layout_x="76dp"
+                android:layout_y="136dp"
+                android:padding="0dp"
+                android:text="@string/abrir" />
+
+            <Button
+                android:id="@+id/cerrarpulgar"
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_marginStart="95dp"
+                android:layout_toEndOf="@+id/abrirmenique"
+                android:layout_x="235dp"
+                android:layout_y="136dp"
+                android:padding="0dp"
+                android:text="@string/cerrar" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/IdControl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/control_led"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/IdDesconectar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_x="262dp"
+        android:layout_y="463dp"
+        android:text="@string/desconectar" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_x="0dp"
+        android:layout_y="49dp">
+
+        <Button
+            android:id="@+id/IdAbrir"
+            style="@style/Base.TextAppearance.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal"
+            android:text="@string/mano_abierta"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/IdCerrar"
+            style="@style/Base.TextAppearance.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:text="@string/mano_cerrada"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+
+</AbsoluteLayout>
